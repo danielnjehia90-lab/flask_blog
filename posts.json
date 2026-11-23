@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Getting Started with Flask Blueprints",
+    "content": "Organizing a growing Flask application gets messy fast. Blueprints allow you to split routes, templates, and static files into modular components.",
+    "user_id": 1
+  },
+  {
+    "title": "Understanding SQLAlchemy Relationships",
+    "content": "One-to-many relationships link users to their posts cleanly. Using backref lets you access the author object directly from any post instance.",
+    "user_id": 2
+  },
+  {
+    "title": "Why Pagination Matters for Web Apps",
+    "content": "Loading hundreds of database records on a single page slows down response times. Flask-SQLAlchemy makes pagination simple with the paginate() method.",
+    "user_id": 1
+  },
+  {
+    "title": "Securing User Passwords with Bcrypt",
+    "content": "Never store plain-text passwords in your database. Hashing passwords with Flask-Bcrypt ensures user credentials stay safe even if the database is compromised.",
+    "user_id": 2
+  },
+  {
+    "title": "Handling Form Validation with WTForms",
+    "content": "Flask-WTF integrates WTForms seamlessly into your templates, giving you CSRF protection and clean server-side validation out of the box.",
+    "user_id": 1
+  },
+  {
+    "title": "Custom Error Pages in Flask",
+    "content": "Default 404 and 500 error screens look unfinished. Creating custom error handlers improves user experience when someone hits a broken link.",
+    "user_id": 2
+  },
+  {
+    "title": "Managing User Sessions with Flask-Login",
+    "content": "Flask-Login handles user session management, login_required decorators, and remember-me cookies without needing to write session logic from scratch.",
+    "user_id": 1
+  },
+  {
+    "title": "Resizing Profile Pictures with Pillow",
+    "content": "Allowing users to upload massive 5MB images will bloat your server storage. Using the Pillow library lets you resize avatars to 125x125 pixels before saving.",
+    "user_id": 2
+  },
+  {
+    "title": "Environment Variables for Secret Keys",
+    "content": "Hardcoding your SECRET_KEY and database URIs in your source code is a security risk. Always load sensitive configuration from environment variables.",
+    "user_id": 1
+  },
+  {
+    "title": "Password Reset Tokens with ItsDangerous",
+    "content": "Timed JSON Web Signatures allow you to generate secure, expiring tokens so users can safely reset forgotten passwords via email.",
+    "user_id": 2
+  },
+  {
+    "title": "Jinja2 Template Inheritance Explained",
+    "content": "Instead of repeating your navbar and footer in every HTML file, use a base layout.html template and extend it across all your views.",
+    "user_id": 1
+  },
+  {
+    "title": "Deploying Python Web Apps on Linux",
+    "content": "Running Flask with debug=True is great for local development, but production servers need Gunicorn paired with Nginx as a reverse proxy.",
+    "user_id": 2
+  },
+  {
+    "title": "Querying Data Efficiently in SQLAlchemy",
+    "content": "Learning the difference between filter(), filter_by(), first(), and all() helps you write cleaner, faster database queries in Python.",
+    "user_id": 1
+  },
+  {
+    "title": "Debugging Common Flask Routing Errors",
+    "content": "A BuildError usually means url_for() was given a function name that does not exist or is missing required dynamic route parameters.",
+    "user_id": 2
+  },
+  {
+    "title": "Structuring Large Python Packages",
+    "content": "Converting a single-file Flask script into a package using __init__.py prevents circular import headaches as your project scales.",
+    "user_id": 1
+  },
+  {
+    "title": "Working with Flash Messages in Bootstrap",
+    "content": "Flask's flash() function combined with get_flashed_messages() makes it effortless to display dismissible Bootstrap alerts after form submissions.",
+    "user_id": 2
+  },
+  {
+    "title": "SQLite vs PostgreSQL for Side Projects",
+    "content": "SQLite is zero-configuration and ideal for local testing, while PostgreSQL shines when you need concurrent writes and production reliability.",
+    "user_id": 1
+  },
+  {
+    "title": "Building REST APIs Alongside HTML Views",
+    "content": "You can easily extend a traditional Flask blog to return JSON responses using jsonify() for mobile apps or frontend frameworks.",
+    "user_id": 2
+  },
+  {
+    "title": "Testing Flask Routes with Pytest",
+    "content": "Using Flask's built-in test_client() lets you simulate GET and POST requests to verify status codes and page content automatically.",
+    "user_id": 1
+  },
+  {
+    "title": "Next Steps After Finishing Your Flask Blog",
+    "content": "Once CRUD operations and pagination are working, try adding post tags, a search bar, user comments, or a dark mode toggle.",
+    "user_id": 2
+  }
+]
